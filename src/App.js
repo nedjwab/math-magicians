@@ -1,11 +1,8 @@
 import './App.css';
+import Calculator from './components/Calculator';
 
-function App() {
-  return (
-    <div>
-      <h1>Hello</h1>
-    </div>
-  );
-}
+const App = () => (
+  <Calculator />
+);
 
 export default App;
