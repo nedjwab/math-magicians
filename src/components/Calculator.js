@@ -5,7 +5,7 @@ class Calculator extends React.Component {
   render() {
     return (
       <div className="main-container">
-        <input className="display-box" type="text" id="result" disabled />
+        <input className="display-box" type="text" id="result" placeholder="0" disabled />
         <div className="claculator-buttons">
           <button type="submit">AC</button>
           <button type="submit">+/-</button>
