@@ -37,7 +37,7 @@ const Calculator = () => {
         <button type="submit" value="AC" onClick={eventHandler}>AC</button>
         <button type="submit" value="+/-" onClick={eventHandler}>+/-</button>
         <button type="submit" value="%" onClick={eventHandler}>%</button>
-        <button type="submit" value="÷" onClick={eventHandler}>/</button>
+        <button type="submit" className="color" value="÷" onClick={eventHandler}>/</button>
         <button type="submit" value="7" onClick={eventHandler}>7</button>
         <button type="submit" value="8" onClick={eventHandler}>8</button>
         <button type="submit" value="9" onClick={eventHandler}>9</button>
