@@ -35,3 +35,7 @@ button {
 .color {
   background-color: #354259;
 }
+
+button:hover {
+  border: solid 1px orange;
+}
