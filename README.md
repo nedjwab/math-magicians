@@ -1,8 +1,11 @@
   ![](https://img.shields.io/badge/Microverse-blueviolet) 
 
 # Math Magians
-The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external.
- 
+Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to Make simple calculation.
+
+
+## Live Demo 
+[Here](https://nedjwab.github.io/math-magicians/) yo can find a live demo of Math Magians .
 ## Built With 🔨
 
 - HTML
