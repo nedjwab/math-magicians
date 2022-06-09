@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
 .main-container {
   margin: 100px 400px;
 }
@@ -13,27 +15,28 @@
 }
 
 .display-box {
-  width: 99%;
+  width: 99.7%;
   font-size: 3rem;
   height: 70px;
   border: none;
-  background-color: #c0c0c0;
-  color: white;
+  font-family: 'Amiri', serif;
+  background-color: #e0deca;
+  color: #4b5d67;
   text-align: right;
   padding-right: 3px;
 }
 
 button {
   border: solid 1px #73777b;
-  background-color: white;
-  color: black;
+  background-color: #1a132f;
+  color: white;
   padding: 19px;
   cursor: pointer;
   font-size: 1.5rem;
 }
 
 .color {
-  background-color: #354259;
+  background-color: #e45826;
 }
 
 button:hover {
