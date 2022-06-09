@@ -20,15 +20,15 @@
   height: 70px;
   border: none;
   font-family: 'Amiri', serif;
-  background-color: #e0deca;
-  color: #4b5d67;
+  background-color: #E0DECA;
+  color: #4B5D67;
   text-align: right;
   padding-right: 3px;
 }
 
 button {
   border: solid 1px #73777b;
-  background-color: #1a132f;
+  background-color: #1A132F;
   color: white;
   padding: 19px;
   cursor: pointer;
@@ -36,7 +36,7 @@ button {
 }
 
 .color {
-  background-color: #e45826;
+  background-color: #E45826;
 }
 
 button:hover {
