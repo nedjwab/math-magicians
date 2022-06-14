@@ -5,9 +5,9 @@ const Navbar = () => (
   <header>
     <h1 id="logo">Math Magicians</h1>
     <nav className="nav-items">
-      <Link to="/">Home</Link>
-      <Link to="/calculator">Calculator</Link>
-      <Link to="/quote">Quotes</Link>
+      <Link to="/" className="nav-item">Home</Link>
+      <Link to="/calculator" className="nav-item">Calculator</Link>
+      <Link to="/quote" className="nav-item">Quotes</Link>
     </nav>
   </header>
 );

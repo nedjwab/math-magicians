@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
 
+body {
+  margin:0;
+}
+
 .main-container {
   margin: 100px 400px;
 }
@@ -44,5 +48,20 @@ button:hover {
 }
 
 header {
-  background-color: green;
+  margin: 0;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:#FED9B7 ;
+}
+
+.nav-items{
+  margin:30px 3px;
+}
+
+.nav-item {
+  display:inline;
+  margin:0 30px;
+  text-decoration: none;
+  color:#03071E;
 }
