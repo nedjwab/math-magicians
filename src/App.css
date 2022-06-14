@@ -5,14 +5,13 @@ body {
   margin:0;
 }
 
-.main-container {
-  margin: 100px 400px;
-}
+
 
 .claculator-buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   border: 0;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 #zero {
@@ -20,7 +19,7 @@ body {
 }
 
 .display-box {
-  width: 99.7%;
+  width: 99.3%;
   font-size: 3rem;
   height: 70px;
   border: none;
@@ -33,7 +32,7 @@ body {
 
 button {
   border: solid 1px #73777b;
-  background-color: #1a132f;
+  background-color: #242F40;
   color: white;
   padding: 19px;
   cursor: pointer;
@@ -41,7 +40,7 @@ button {
 }
 
 .color {
-  background-color: #e45826;
+  background-color: #CCA43B
 }
 
 button:hover {
@@ -117,5 +116,21 @@ footer {
   border:solid 1px #242F40;
   padding: 50px 10px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.claculaor-container {
+  margin:20px 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-container {
+  width:42%;
+}
+
+.title {
+  margin:10px 90px;
+  font-size: 30px;
 }
