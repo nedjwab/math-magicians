@@ -2,16 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
 
 body {
-  margin:0;
+  margin: 0;
 }
-
-
 
 .claculator-buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   border: 0;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 1px 0 inset, rgba(50, 50, 93, 0.25) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
 }
 
 #zero {
@@ -32,7 +30,7 @@ body {
 
 button {
   border: solid 1px #73777b;
-  background-color: #242F40;
+  background-color: #242f40;
   color: white;
   padding: 19px;
   cursor: pointer;
@@ -40,7 +38,7 @@ button {
 }
 
 .color {
-  background-color: #CCA43B
+  background-color: #cca43b;
 }
 
 button:hover {
@@ -49,104 +47,104 @@ button:hover {
 
 header {
   margin: 0;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color:#363636;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #363636;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
 }
 
 .nav-items {
-  margin:20px 3px;
+  margin: 20px 3px;
   font-size: 19px;
 }
 
 .nav-item {
-  display:inline;
-  margin:0 30px;
+  display: inline;
+  margin: 0 30px;
   text-decoration: none;
-  color:#FFFFFF;
+  color: #fff;
 }
 
 .nav-item:hover {
-  color:#CCA43B;
+  color: #cca43b;
 }
 
 header h1 {
-  margin:14px 15px;
+  margin: 14px 15px;
   font-family: 'Joan', serif;
   font-size: 27px;
-  color:#CCA43B;
+  color: #cca43b;
 }
 
 .contenu {
-  width:90%;
+  width: 90%;
   border-radius: 2px;
-  padding:20px;
+  padding: 20px;
   font-size: 20px;
   line-height: 30px;
 }
 
 footer {
-  background-color:#363636;
-  color:#FFFFFF;
+  background-color: #363636;
+  color: #fff;
   text-align: center;
   padding: 13px;
   font-size: 19px;
   position: fixed;
-  width:100%;
+  width: 100%;
   bottom: 0%;
 }
- 
+
 .brain-img {
   position: relative;
-  left:94%;
-  height:4%;
-  width:9%;
+  left: 94%;
+  height: 4%;
+  width: 9%;
 }
 
 .home-container {
-  margin:50px 50px;
+  margin: 50px 50px;
 }
 
 .home-container h2 {
-  margin:0 18px;
+  margin: 0 18px;
 }
 
 .body {
-  border:solid 1px #242F40;
+  border: solid 1px #242f40;
   padding: 50px 10px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 .claculaor-container {
-  margin:20px 90px;
+  margin: 20px 90px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .main-container {
-  width:42%;
+  width: 42%;
 }
 
 .title {
-  margin:17px 90px;
+  margin: 17px 90px;
   font-size: 30px;
 }
 
 .quotes {
-  border:solid 1px #242F40;
+  border: solid 1px #242f40;
   padding: 50px 15px;
   line-height: 29px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin:110px 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  margin: 110px 50px;
   font-size: 20px;
 }
 
 span {
-  color:#CCA43B;
+  color: #cca43b;
   font-weight: 500;
 }
