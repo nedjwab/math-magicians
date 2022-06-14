@@ -84,6 +84,7 @@ header h1 {
   border-radius: 2px;
   padding:20px;
   font-size: 20px;
+  line-height: 30px;
 }
 
 footer {
@@ -131,6 +132,21 @@ footer {
 }
 
 .title {
-  margin:10px 90px;
+  margin:17px 90px;
   font-size: 30px;
+}
+
+.quotes {
+  border:solid 1px #242F40;
+  padding: 50px 15px;
+  line-height: 29px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin:110px 50px;
+  font-size: 20px;
+}
+
+span {
+  color:#CCA43B;
+  font-weight: 500;
 }
