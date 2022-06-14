@@ -53,7 +53,7 @@ header {
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color:#EDF2F4;
+  background-color:#363636;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -66,16 +66,36 @@ header {
   display:inline;
   margin:0 30px;
   text-decoration: none;
-  color:#2B2D42;
+  color:#FFFFFF;
 }
 
 .nav-item:hover {
-  color:#F07167;
+  color:#CCA43B;
 }
 
 header h1 {
   margin:14px 15px;
   font-family: 'Joan', serif;
   font-size: 27px;
-  color:#F07167;
+  color:#CCA43B;
 }
+
+.contenu {
+  width:90%;
+  margin:200px 90px;
+  border-radius: 2px;
+  padding:20px;
+  font-size: 20px;
+}
+
+footer {
+  background-color:#363636;
+  color:#FFFFFF;
+  text-align: center;
+  padding: 13px;
+  font-size: 19px;
+  position: fixed;
+  width:100%;
+  bottom: 0%;;
+}
+ 

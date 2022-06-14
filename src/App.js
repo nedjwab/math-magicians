@@ -8,6 +8,7 @@ import Navbar from './components/navBar';
 import Calculator from './components/Calculator';
 import Home from './components/home';
 import Quote from './components/quote';
+import Footer from './components/footer';
 
 const App = () => (
   <>
@@ -18,6 +19,7 @@ const App = () => (
         <Route exact path="/calculator" element={<Calculator />} />
         <Route exact path="/quote" element={<Quote />} />
       </Routes>
+      <Footer />
     </Router>
   </>
 );
