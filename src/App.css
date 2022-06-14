@@ -42,3 +42,7 @@ button {
 button:hover {
   border: solid 1px orange;
 }
+
+header {
+  background-color: green;
+}
