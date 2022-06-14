@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
 
 body {
   margin:0;
@@ -52,16 +53,29 @@ header {
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color:#FED9B7 ;
+  background-color:#EDF2F4;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.nav-items{
-  margin:30px 3px;
+.nav-items {
+  margin:20px 3px;
+  font-size: 19px;
 }
 
 .nav-item {
   display:inline;
   margin:0 30px;
   text-decoration: none;
-  color:#03071E;
+  color:#2B2D42;
+}
+
+.nav-item:hover {
+  color:#F07167;
+}
+
+header h1 {
+  margin:14px 15px;
+  font-family: 'Joan', serif;
+  font-size: 27px;
+  color:#F07167;
 }
