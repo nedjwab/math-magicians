@@ -82,7 +82,6 @@ header h1 {
 
 .contenu {
   width:90%;
-  margin:200px 90px;
   border-radius: 2px;
   padding:20px;
   font-size: 20px;
@@ -96,6 +95,27 @@ footer {
   font-size: 19px;
   position: fixed;
   width:100%;
-  bottom: 0%;;
+  bottom: 0%;
 }
  
+.brain-img {
+  position: relative;
+  left:94%;
+  height:4%;
+  width:9%;
+}
+
+.home-container {
+  margin:50px 50px;
+}
+
+.home-container h2 {
+  margin:0 18px;
+}
+
+.body {
+  border:solid 1px #242F40;
+  padding: 50px 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
