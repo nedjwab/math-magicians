@@ -5,7 +5,9 @@ Math magicians is a website for all fans of mathematics. It is a Single Page App
 
 
 ## Live Demo 
-[Here](https://62a8ee1d33108f0ef4e1cf6d--loquacious-custard-2f3cce.netlify.app/) you can find a live demo of Math Magicians .
+[Here the Netlify's link ](https://62a8ee1d33108f0ef4e1cf6d--loquacious-custard-2f3cce.netlify.app/) to the live demo of Math Magicians .
+
+[Here the Heroku's link ](https://nedjwa-math-magicians.herokuapp.com/) to the live demo of Math Magicians .
 ## Built With 🔨
 
 - HTML
@@ -67,5 +69,8 @@ Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
 
  
