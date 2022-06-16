@@ -6,6 +6,7 @@ Math magicians is a website for all fans of mathematics. It is a Single Page App
 
 ## Live Demo 
 [Here the Netlify's link ](https://62a8ee1d33108f0ef4e1cf6d--loquacious-custard-2f3cce.netlify.app/) to the live demo of Math Magicians .
+
 [Here the Heroku's link ](https://nedjwa-math-magicians.herokuapp.com/) to the live demo of Math Magicians .
 ## Built With 🔨
 
