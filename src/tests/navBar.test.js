@@ -5,7 +5,7 @@ import Navbar from '../components/navBar';
 
 it('renders correctly', () => {
   const navbar = renderer
-    .create( <Router><Navbar /></Router>)
+    .create(<Router><Navbar /></Router>)
     .toJSON();
   expect(navbar).toMatchSnapshot();
 });

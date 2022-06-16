@@ -27,7 +27,7 @@ describe('Test for  calculate function', () => {
     const result = calculate(obj, '=');
 
     expect(result).toStrictEqual({
-      total: "8",
+      total: '8',
       next: null,
       operation: null,
     });
